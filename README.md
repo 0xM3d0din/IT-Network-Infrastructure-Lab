@@ -63,6 +63,12 @@ Enterprise Infrastructure Lab
 Build a strong practical foundation for **IT Support, Network Infrastructure, and Systems Administration roles**, while developing toward more advanced Infrastructure, Security, and Cloud responsibilities.
 
 ---
+## 📅 100 Days of IT Infrastructure
+
+A 100-day hands-on journey focused on learning, building, troubleshooting, and documenting practical IT infrastructure skills.
+
+**Learn → Build → Test → Break → Troubleshoot → Fix → Document**
+---
 ## 👤 Author
 
 **Mohamed Ali**
@@ -72,8 +78,3 @@ Focused on IT Support, Networking, Infrastructure, Security, and Cloud.
 
 🔗 [GitHub](https://github.com/0xM3d0din)
 
-## 📅 100 Days of IT Infrastructure
-
-A 100-day hands-on journey focused on learning, building, troubleshooting, and documenting practical IT infrastructure skills.
-
-**Learn → Build → Test → Break → Troubleshoot → Fix → Document**
