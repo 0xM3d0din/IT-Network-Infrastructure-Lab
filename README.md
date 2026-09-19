@@ -48,11 +48,11 @@ Windows Server & Active Directory
         ↓
 Network Troubleshooting
         ↓
-Security
+     Security
         ↓
 PowerShell & Automation
         ↓
-Virtualization
+  Virtualization
         ↓
       Cloud
         ↓
