@@ -63,6 +63,14 @@ Enterprise Infrastructure Lab
 Build a strong practical foundation for **IT Support, Network Infrastructure, and Systems Administration roles**, while developing toward more advanced Infrastructure, Security, and Cloud responsibilities.
 
 ---
+## 👤 Author
+
+**Mohamed Ali**
+
+Information Security & Digital Forensics Graduate  
+Focused on IT Support, Networking, Infrastructure, Security, and Cloud.
+
+🔗 [GitHub](https://github.com/0xM3d0din)
 
 ## 📅 100 Days of IT Infrastructure
 
