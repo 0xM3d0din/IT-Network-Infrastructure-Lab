@@ -74,6 +74,5 @@ A 100-day hands-on journey focused on building, troubleshooting, and documenting
 Information Security & Digital Forensics Graduate  
 Focused on IT Support, Networking, Infrastructure, Security, and Cloud.
 
-🔗 [GitHub](https://github.com/0xM3d0din)
-🔗 [LinkedIn](https://www.linkedin.com/in/moali7/)
+🔗 [GitHub](https://github.com/0xM3d0din) • [LinkedIn](https://www.linkedin.com/in/moali7/)
 
