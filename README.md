@@ -44,7 +44,7 @@ Windows Administration
         ↓
 Windows Server & Active Directory
         ↓
-Linux
+      Linux
         ↓
 Network Troubleshooting
         ↓
@@ -54,6 +54,6 @@ PowerShell & Automation
         ↓
 Virtualization
         ↓
-Cloud
+      Cloud
         ↓
 Enterprise Infrastructure Lab
