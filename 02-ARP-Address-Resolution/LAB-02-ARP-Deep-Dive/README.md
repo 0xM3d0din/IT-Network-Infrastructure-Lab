@@ -102,18 +102,11 @@ All hosts were placed in the same Layer 2 network and broadcast domain.
 
 ## 🌐 Network Configuration
 
-
-
 | Device | IP Address | Subnet Mask | Default Gateway |
-
 |---|---|---|---|
-
 | PC0 | 192.168.1.10 | 255.255.255.0 | None |
-
 | PC1 | 192.168.1.20 | 255.255.255.0 | None |
-
 | PC2 | 192.168.1.30 | 255.255.255.0 | None |
-
 | PC3 | 192.168.1.40 | 255.255.255.0 | None |
 
 
