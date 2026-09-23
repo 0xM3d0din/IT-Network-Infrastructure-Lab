@@ -1,8 +1,8 @@
-\# LAB 03 — IPv4 Addressing \& Subnetting
+# LAB 03 — IPv4 Addressing & Subnetting
 
 
 
-\## 🎯 Objective
+## 🎯 Objective
 
 
 
@@ -10,21 +10,21 @@ Understand IPv4 addressing and subnetting and learn how to determine:
 
 
 
-\- Network Address
+- Network Address
 
-\- Broadcast Address
+- Broadcast Address
 
-\- First Usable Host
+- First Usable Host
 
-\- Last Usable Host
+- Last Usable Host
 
-\- Number of Usable Hosts
+- Number of Usable Hosts
 
-\- Subnet / Address Range
+- Subnet / Address Range
 
-\- Block Size
+- Block Size
 
-\- Subnet Boundaries
+- Subnet Boundaries
 
 
 
@@ -32,11 +32,11 @@ The lab also applies IPv4 and subnetting concepts to practical network testing a
 
 
 
-\---
+---
 
 
 
-\## 🧩 Topology
+## 🧩 Topology
 
 
 
@@ -54,7 +54,7 @@ PC2 ─┘                       ├── PC4
 
 
 
-\### Connections
+### Connections
 
 
 
@@ -90,11 +90,11 @@ No default gateway was configured.
 
 
 
-\---
+---
 
 
 
-\## 🌐 Network Configuration
+## 🌐 Network Configuration
 
 
 
@@ -114,7 +114,7 @@ and uses `/26` subnets.
 
 
 
-\### Subnet 1
+### Subnet 1
 
 
 
@@ -162,7 +162,7 @@ Devices:
 
 
 
-\### Subnet 2
+### Subnet 2
 
 
 
@@ -210,15 +210,15 @@ Devices:
 
 
 
-\---
+---
 
 
 
-\# 📚 Core Concepts
+# 📚 Core Concepts
 
 
 
-\## 1. IPv4 Addressing
+## 1. IPv4 Addressing
 
 
 
@@ -298,11 +298,11 @@ possible values.
 
 
 
-\---
+---
 
 
 
-\## 2. Binary Representation
+## 2. Binary Representation
 
 
 
@@ -342,11 +342,11 @@ Binary representation is important because subnetting is based on individual bit
 
 
 
-\---
+---
 
 
 
-\## 3. Network Portion and Host Portion
+## 3. Network Portion and Host Portion
 
 
 
@@ -410,11 +410,11 @@ Network Address:
 
 
 
-\---
+---
 
 
 
-\## 4. CIDR and Subnet Masks
+## 4. CIDR and Subnet Masks
 
 
 
@@ -462,11 +462,11 @@ Subnet Size
 
 
 
-\---
+---
 
 
 
-\## 5. Network Address
+## 5. Network Address
 
 
 
@@ -504,11 +504,11 @@ The Network Address is not assigned to a normal host.
 
 
 
-\---
+---
 
 
 
-\## 6. Broadcast Address
+## 6. Broadcast Address
 
 
 
@@ -544,11 +544,11 @@ The Broadcast Address is not assigned to a normal host.
 
 
 
-\---
+---
 
 
 
-\## 7. Usable Host Range
+## 7. Usable Host Range
 
 
 
@@ -616,15 +616,15 @@ Broadcast Address
 
 
 
-\---
+---
 
 
 
-\# 🧮 Subnetting
+# 🧮 Subnetting
 
 
 
-\## 8. /26 Subnetting
+## 8. /26 Subnetting
 
 
 
@@ -690,11 +690,11 @@ The subnet mask is:
 
 
 
-\---
+---
 
 
 
-\## 9. Block Size
+## 9. Block Size
 
 
 
@@ -760,11 +760,11 @@ The corresponding ranges are:
 
 
 
-\---
+---
 
 
 
-\## 10. Subnet Boundaries
+## 10. Subnet Boundaries
 
 
 
@@ -816,11 +816,11 @@ The value `256` is not a valid IPv4 octet. It represents the point after the las
 
 
 
-\---
+---
 
 
 
-\## 11. Example — 192.168.10.70/26
+## 11. Example — 192.168.10.70/26
 
 
 
@@ -926,11 +926,11 @@ Usable Hosts:
 
 
 
-\---
+---
 
 
 
-\## 12. Example — 192.168.10.145/28
+## 12. Example — 192.168.10.145/28
 
 
 
@@ -1052,11 +1052,11 @@ Usable Hosts:
 
 
 
-\---
+---
 
 
 
-\# 🧪 Experiment 1 — Same Subnet Communication
+# 🧪 Experiment 1 — Same Subnet Communication
 
 
 
@@ -1130,11 +1130,11 @@ This demonstrated direct communication between devices in the same subnet.
 
 
 
-\---
+---
 
 
 
-\# 🧪 Experiment 2 — Different Subnet Communication
+# 🧪 Experiment 2 — Different Subnet Communication
 
 
 
@@ -1210,11 +1210,11 @@ The communication failed because there was no Layer 3 device or default gateway 
 
 
 
-\---
+---
 
 
 
-\# 🧪 Experiment 3 — ARP and MAC Learning
+# 🧪 Experiment 3 — ARP and MAC Learning
 
 
 
@@ -1278,11 +1278,11 @@ Traffic between devices on the second subnet also demonstrated dynamic MAC learn
 
 
 
-\---
+---
 
 
 
-\# 🧪 Experiment 4 — Simulation: Different Subnet Without Gateway
+# 🧪 Experiment 4 — Simulation: Different Subnet Without Gateway
 
 
 
@@ -1370,11 +1370,11 @@ This demonstrated that PC0 does not directly ARP for PC3 when the destination is
 
 
 
-\---
+---
 
 
 
-\# 🧪 Experiment 5 — Intentional Failure: Wrong Subnet Mask
+# 🧪 Experiment 5 — Intentional Failure: Wrong Subnet Mask
 
 
 
@@ -1460,11 +1460,11 @@ PC1 = 192.168.10.20/28
 
 
 
-\---
+---
 
 
 
-\## Failure Analysis
+## Failure Analysis
 
 
 
@@ -1528,11 +1528,11 @@ This created inconsistent subnet interpretations between the two devices.
 
 
 
-\---
+---
 
 
 
-\## Failure Testing
+## Failure Testing
 
 
 
@@ -1584,11 +1584,11 @@ Result:
 
 
 
-\---
+---
 
 
 
-\## Evidence Collection
+## Evidence Collection
 
 
 
@@ -1658,11 +1658,11 @@ This provided evidence of inconsistent subnet configuration.
 
 
 
-\---
+---
 
 
 
-\## 🔍 Root Cause
+## 🔍 Root Cause
 
 
 
@@ -1682,11 +1682,11 @@ The problem was caused by inconsistent IP subnet configuration.
 
 
 
-\---
+---
 
 
 
-\# 🔧 Fix
+# 🔧 Fix
 
 
 
@@ -1722,11 +1722,11 @@ which restored:
 
 
 
-\---
+---
 
 
 
-\# ✅ Final Verification
+# ✅ Final Verification
 
 
 
@@ -1810,57 +1810,57 @@ Verify
 
 
 
-\---
+---
 
 
 
-\# 🧠 Key Takeaways
+# 🧠 Key Takeaways
 
 
 
-1\. IPv4 addresses contain 32 bits divided into four 8-bit octets.
+1. IPv4 addresses contain 32 bits divided into four 8-bit octets.
 
-2\. Each IPv4 octet ranges from 0 to 255.
+2. Each IPv4 octet ranges from 0 to 255.
 
-3\. CIDR determines how many bits belong to the network portion.
+3. CIDR determines how many bits belong to the network portion.
 
-4\. The subnet mask separates network bits from host bits.
+4. The subnet mask separates network bits from host bits.
 
-5\. The Network Address identifies the subnet.
+5. The Network Address identifies the subnet.
 
-6\. The Broadcast Address identifies the end of the subnet.
+6. The Broadcast Address identifies the end of the subnet.
 
-7\. Usable hosts are the addresses between the Network and Broadcast addresses.
+7. Usable hosts are the addresses between the Network and Broadcast addresses.
 
-8\. Block Size determines the spacing between subnet boundaries.
+8. Block Size determines the spacing between subnet boundaries.
 
-9\. A subnet boundary is the beginning of a new subnet.
+9. A subnet boundary is the beginning of a new subnet.
 
-10\. Devices can use the same subnet mask while still belonging to different subnets.
+10. Devices can use the same subnet mask while still belonging to different subnets.
 
-11\. Same-subnet communication can occur directly at Layer 2.
+11. Same-subnet communication can occur directly at Layer 2.
 
-12\. Different subnets require Layer 3 connectivity to communicate.
+12. Different subnets require Layer 3 connectivity to communicate.
 
-13\. ARP resolves local IPv4 addresses to MAC addresses.
+13. ARP resolves local IPv4 addresses to MAC addresses.
 
-14\. Switches use MAC Address Tables to associate MAC addresses with ports.
+14. Switches use MAC Address Tables to associate MAC addresses with ports.
 
-15\. An incorrect subnet mask can cause devices to make inconsistent local and remote decisions.
+15. An incorrect subnet mask can cause devices to make inconsistent local and remote decisions.
 
-16\. Troubleshooting should use evidence instead of guessing.
-
-
-
-\---
+16. Troubleshooting should use evidence instead of guessing.
 
 
 
-\# 🛠️ Commands Used
+---
 
 
 
-\## Packet Tracer PCs
+# 🛠️ Commands Used
+
+
+
+## Packet Tracer PCs
 
 
 
@@ -1886,7 +1886,7 @@ ping 192.168.10.10
 
 
 
-\## Cisco Switches
+## Cisco Switches
 
 
 
@@ -1900,11 +1900,11 @@ show mac address-table
 
 
 
-\---
+---
 
 
 
-\# 📁 Lab Files
+# 📁 Lab Files
 
 
 
@@ -1924,17 +1924,16 @@ LAB-03-IPv4-Addressing-Subnetting/
 
 
 
-\---
+---
 
 
 
-\## ✅ Status
+## ✅ Status
 
 
 
-\*\*Completed\*\*
+**Completed**
 
 
 
-\*\*100-Day IT Infrastructure Journey — LAB 03\*\*
-
+**100-Day IT Infrastructure Journey — LAB 03**
