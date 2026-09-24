@@ -79,11 +79,9 @@ PC0
 PC1
 
 
-
 SW1 — Cisco 2960
 
 SW2 — Cisco 2960
-
 
 
 R1 — Cisco 2911
@@ -101,13 +99,10 @@ R1 — Cisco 2911
 PC0 FastEthernet0 → SW1 FastEthernet0/1
 
 
-
 SW1 FastEthernet0/24 → R1 GigabitEthernet0/0
 
 
-
 R1 GigabitEthernet0/1 → SW2 FastEthernet0/24
-
 
 
 SW2 FastEthernet0/1 → PC1 FastEthernet0
@@ -139,17 +134,14 @@ Network:
 192.168.10.0/26
 
 
-
 Subnet Mask:
 
 255.255.255.192
 
 
-
 Usable Hosts:
 
 192.168.10.1 → 192.168.10.62
-
 
 
 Broadcast:
@@ -171,11 +163,9 @@ Network:
 192.168.10.64/26
 
 
-
 Subnet Mask:
 
 255.255.255.192
-
 
 
 Usable Hosts:
@@ -195,20 +185,12 @@ Broadcast:
 ### Device Addressing
 
 
-
 | Device | Interface | IP Address | Subnet Mask | Default Gateway |
-
 |---|---|---|---|---|
-
 | PC0 | FastEthernet0 | 192.168.10.10 | 255.255.255.192 | 192.168.10.62 |
-
 | R1 | GigabitEthernet0/0 | 192.168.10.62 | 255.255.255.192 | — |
-
 | R1 | GigabitEthernet0/1 | 192.168.10.126 | 255.255.255.192 | — |
-
 | PC1 | FastEthernet0 | 192.168.10.70 | 255.255.255.192 | 192.168.10.126 |
-
-
 
 ---
 
