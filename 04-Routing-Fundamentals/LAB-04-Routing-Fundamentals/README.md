@@ -771,7 +771,6 @@ Source IP:
 192.168.10.10
 
 
-
 Destination IP:
 
 192.168.10.70
@@ -855,7 +854,6 @@ Source IP:
 192.168.10.10
 
 
-
 Destination IP:
 
 192.168.10.70
@@ -877,7 +875,6 @@ This demonstrated:
 IP addresses:
 
 End-to-End communication
-
 
 
 MAC addresses:
@@ -959,7 +956,6 @@ Router:
 Layer 3 routing
 
 
-
 Switch:
 
 Layer 2 forwarding
@@ -987,7 +983,6 @@ Source IP:
 192.168.10.10
 
 
-
 Destination IP:
 
 192.168.10.70
@@ -1009,7 +1004,6 @@ PC1 then generated the ICMP Echo Reply:
 Source IP:
 
 192.168.10.70
-
 
 
 Destination IP:
@@ -1077,7 +1071,6 @@ The IP address and subnet mask remained unchanged:
 IP Address:
 
 192.168.10.10
-
 
 
 Subnet Mask:
@@ -1185,11 +1178,9 @@ IPv4 Address:
 192.168.10.10
 
 
-
 Subnet Mask:
 
 255.255.255.192
-
 
 
 Default Gateway:
@@ -1251,11 +1242,9 @@ PC0 IP configuration:
 Correct IP and subnet mask
 
 
-
 Physical connectivity:
 
 Operational
-
 
 
 Layer 2 connectivity:
@@ -1263,11 +1252,9 @@ Layer 2 connectivity:
 Operational
 
 
-
 R1 G0/0:
 
 Reachable
-
 
 
 Remote communication:
@@ -1349,11 +1336,9 @@ IP Address:
 192.168.10.10
 
 
-
 Subnet Mask:
 
 255.255.255.192
-
 
 
 Default Gateway:
@@ -1427,11 +1412,9 @@ IPv4 Address:
 192.168.10.10
 
 
-
 Subnet Mask:
 
 255.255.255.192
-
 
 
 Default Gateway:
@@ -1573,21 +1556,16 @@ PC0
 ipconfig
 
 
-
 arp -a
-
 
 
 ping 192.168.10.62
 
 
-
 ping 192.168.10.70
 
 
-
 ping 192.168.10.10
-
 
 
 tracert 192.168.10.70
@@ -1605,41 +1583,31 @@ tracert 192.168.10.70
 enable
 
 
-
 configure terminal
-
 
 
 hostname R1
 
 
-
 interface gigabitEthernet 0/0
-
 
 
 ip address 192.168.10.62 255.255.255.192
 
 
-
 no shutdown
-
 
 
 interface gigabitEthernet 0/1
 
 
-
 ip address 192.168.10.126 255.255.255.192
-
 
 
 no shutdown
 
 
-
 show ip interface brief
-
 
 
 show ip route
@@ -1665,11 +1633,9 @@ The lab includes screenshots covering:
 Topology
 
 
-
 PC0 Configuration
 
 PC1 Configuration
-
 
 
 R1 Interfaces Up
@@ -1677,11 +1643,9 @@ R1 Interfaces Up
 R1 Connected Routes
 
 
-
 Baseline Ping
 
 ARP Gateway
-
 
 
 PC0 Forwarding to Gateway
@@ -1693,13 +1657,11 @@ SW2 Forwarding to PC1
 PC1 Received Routing Packet
 
 
-
 Wrong Gateway Configuration
 
 Wrong Gateway Ping Failure
 
 Wrong Gateway Diagnosis Evidence
-
 
 
 Final Verification
