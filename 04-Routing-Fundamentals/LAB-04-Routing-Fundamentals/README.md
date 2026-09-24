@@ -1748,37 +1748,6 @@ LAB-04-Routing-Fundamentals/
 
 └── screenshots/
 
-&#x20;   ├── ARP-Gateway.png
-
-&#x20;   ├── Baseline-Ping.png
-
-&#x20;   ├── Final-Verification.png
-
-&#x20;   ├── PC0-Configuration.png
-
-&#x20;   ├── PC0-Forwarding-to-Gateway.png
-
-&#x20;   ├── PC1-Configuration.png
-
-&#x20;   ├── PC1-Received-Routing-Packet.png
-
-&#x20;   ├── R1-Connected-Routes.png
-
-&#x20;   ├── R1-Forwarding-Between-Subnets.png
-
-&#x20;   ├── R1-Interfaces-Up.png
-
-&#x20;   ├── SW2-Forwarding-to-PC1.png
-
-&#x20;   ├── Topology.png
-
-&#x20;   ├── Tracert-Routing-Path.png
-
-&#x20;   ├── Wrong-Gateway-Configuration.png
-
-&#x20;   ├── Wrong-Gateway-Diagnosis-Evidence.png
-
-&#x20;   └── Wrong-Gateway-Ping-Failure.png
 
 ```
 
