@@ -1,4 +1,3 @@
-```markdown
 # LAB 14 — NAT / PAT
 
 ## Objective
