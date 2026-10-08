@@ -656,7 +656,6 @@ The lab also reinforced an important troubleshooting principle:
 
 **LAB 17 — IPv6 Fundamentals ✅**
 
-Next:
-
-**LAB 18 — Network Troubleshooting**
+**Next:**  
+**DAY 18 — Networking Review & Knowledge Gaps 🧠**
 ```
